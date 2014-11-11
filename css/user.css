@@ -1,0 +1,44 @@
+    .form-control:focus{
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          color:#a1a4af;
+        } 
+
+            
+                   
+        .field-signin:focus, .field-signup:focus, .field-resetPassword:focus{ border: 1px solid #bbc1c7;}
+       
+
+      
+      .modal-title{text-align:center; border:0;}
+      .modal-header{border:0; padding:30px 20px 20px 20px;}
+      .modal-dialog{width:360px;}
+        
+      .modal-body{padding:0px 30px 20px 30px;}
+      .field-resetPassword{height:38px; margin-bottom:10px; font-size:14px; margin-top:15px; border:1px solid #e0e0e0;}
+      .modal-footer{text-align:center; font-size:14px; margin-top:15px;}
+      .modal-backdrop.in {
+          filter: alpha(opacity=70);
+          opacity: .7;
+        }    
+        .modal-content{-webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+              box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+        border-radius: 4px; 
+        }   
+        .modal {
+          position: fixed;
+          top: 10px;
+        }    
+        
+      
+        
+        
+        .form-resetPassword, .form-signin{margin-top:0px;}
+        .form-signin .btn-facebook{margin-top:0px; height:40px; margin-bottom:0px;float:left;}     
+        .form-signin .btn-yellow{margin-top:0px; height:40px; margin-bottom:10px;float:left;} 
+        .field-signin, .field-signup, .field-resetPassword{height:45px; margin-bottom:10px;border:1px solid #e0e0e0; box-shadow:0px 0px 0px;}    
+
+        .forgotLink-container{float:right;font-size:13px; margin-top:2px;}
+        #signin-modal a:link, #signin-modal a:visited{color:#bcbec6;}
+        #signup-modal a:link, #signup-modal a:visited{color:#bcbec6;}
+        #forgotpassword-modal a:link, #forgotpassword-modal a:visited{color:#bcbec6;}
